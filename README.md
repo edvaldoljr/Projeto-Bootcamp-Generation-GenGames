@@ -2,4 +2,4 @@
 
 
 
-![](C:\Users\user\Pictures\projeto-genGames.png)
+![](https://github.com/edvaldoljr/Projeto-Bootcamp-Generation-GenGames/blob/main/img/projeto-genGames.png?raw=true)
