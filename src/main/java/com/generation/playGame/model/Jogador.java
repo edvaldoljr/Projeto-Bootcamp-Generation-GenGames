@@ -1,4 +1,4 @@
-package com.generation.genGame.model;
+package com.generation.playGame.model;
 
 import jakarta.persistence.*;
 import lombok.Data;
@@ -28,5 +28,6 @@ public class Jogador {
     private Set<JogosAlugados> jogosAlugados = new HashSet<>(); // Relacionamento de um jogador com vários aluguéis de jogos
 
     public void setId(Long id) {
+
     }
 }

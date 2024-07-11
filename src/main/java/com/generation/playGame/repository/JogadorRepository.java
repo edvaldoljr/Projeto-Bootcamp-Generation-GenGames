@@ -1,9 +1,8 @@
-package com.generation.genGame.repository;
+package com.generation.playGame.repository;
 
-import com.generation.genGame.model.Jogador;
+import com.generation.playGame.model.Jogador;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import java.util.List;
 
 @Repository
 public interface JogadorRepository extends JpaRepository<Jogador, Long> {

@@ -1,6 +1,6 @@
-package com.generation.genGame.repository;
+package com.generation.playGame.repository;
 
-import com.generation.genGame.model.JogosAlugados;
+import com.generation.playGame.model.JogosAlugados;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface JogosAlugadosRepository extends JpaRepository<JogosAlugados, Long> {

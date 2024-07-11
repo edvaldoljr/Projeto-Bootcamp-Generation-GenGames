@@ -1,4 +1,4 @@
-package com.generation.genGame.model;
+package com.generation.playGame.model;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -12,7 +12,7 @@ import java.util.Set;
 @NoArgsConstructor
 @Entity
 @Table(name = "tb_jogo")
-public class Jogo {
+public class ProdutoJogo {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

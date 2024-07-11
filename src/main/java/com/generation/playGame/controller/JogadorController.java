@@ -1,8 +1,8 @@
-package com.generation.genGame.controller;
+package com.generation.playGame.controller;
 
 
-import com.generation.genGame.model.Jogador;
-import com.generation.genGame.repository.JogadorRepository;
+import com.generation.playGame.model.Jogador;
+import com.generation.playGame.repository.JogadorRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

@@ -1,4 +1,4 @@
-package com.generation.genGame.model;
+package com.generation.playGame.model;
 
 import jakarta.persistence.*;
 import lombok.Data;
@@ -16,7 +16,7 @@ public class JogosAlugados {
 
     @ManyToOne
     @JoinColumn(name = "jogo_id")
-    private Jogo jogo; // Jogo alugado
+    private ProdutoJogo jogo; // Jogo alugado
 
     @ManyToOne
     @JoinColumn(name = "jogador_id")

@@ -1,4 +1,4 @@
-package com.generation.genGame.model;
+package com.generation.playGame.model;
 
 import jakarta.persistence.*;
 import lombok.Data;
@@ -18,5 +18,5 @@ public class Categoria {
     private String nome;
 
     @OneToMany(mappedBy = "categoria") // Relacionamento um-para-muitos com Jogo
-    private List<Jogo> jogos;
+    private List<ProdutoJogo> jogos;
 }

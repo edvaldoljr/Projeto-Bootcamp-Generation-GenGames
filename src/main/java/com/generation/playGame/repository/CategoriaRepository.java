@@ -1,6 +1,6 @@
-package com.generation.genGame.repository;
+package com.generation.playGame.repository;
 
-import com.generation.genGame.model.Categoria;
+import com.generation.playGame.model.Categoria;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

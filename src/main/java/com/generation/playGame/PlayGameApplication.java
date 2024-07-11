@@ -1,4 +1,4 @@
-package com.generation.genGame;
+package com.generation.playGame;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
